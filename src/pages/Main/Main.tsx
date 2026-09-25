@@ -2,7 +2,6 @@ import ApartmentCard from '../../components/ApartmentCard/ApartmentCard';
 
 type MainPageProps = {
     apartmentsCount: number;
-    cities: string[];
 }
 
 const MainPage = (props: MainPageProps) => (
@@ -95,11 +94,11 @@ const MainPage = (props: MainPageProps) => (
               </ul>
             </form>
             <div className="cities__places-list places__list tabs__content">
-              <ApartmentCard></ApartmentCard>
-              <ApartmentCard></ApartmentCard>
-              <ApartmentCard></ApartmentCard>
-              <ApartmentCard></ApartmentCard>
-              <ApartmentCard></ApartmentCard>
+              <ApartmentCard />
+              <ApartmentCard />
+              <ApartmentCard />
+              <ApartmentCard />
+              <ApartmentCard />
             </div>
           </section>
           <div className="cities__right-section">
