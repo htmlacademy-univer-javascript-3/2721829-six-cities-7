@@ -1,0 +1,11 @@
+.page__notfound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.page__notfound a {
+    color: #4481c3;;
+    text-decoration: underline;
+}

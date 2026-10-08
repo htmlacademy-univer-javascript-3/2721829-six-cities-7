@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import { App } from './App';
 
 const cities: string[] = [
   'Paris',
@@ -17,6 +17,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <App cities={cities}></App>
+    <App />
   </React.StrictMode>
 );
