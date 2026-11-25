@@ -1,12 +1,12 @@
 import { Icon, Marker, layerGroup } from 'leaflet';
 import { City, Offer, Location } from '../../types/types';
 import { useEffect, useRef } from 'react';
-import { URL_MARKER_DEFAULT, URL_MARKER_CURRENT } from '../../data'
+import { URL_MARKER_DEFAULT, URL_MARKER_CURRENT } from '../../const'
 import useMap from '../../hooks/use-map';
 
 type MapProps = {
     city: City
-    offers?: Offer[]
+    offers: Offer[]
     activeMarker: Location | undefined
 }
 
